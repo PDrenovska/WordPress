@@ -1,0 +1,272 @@
+
+/*********************************************************************************/
+/* Desktop (>= 480px)                                                            */
+/*********************************************************************************/
+
+/* Header */
+
+#header-wrapper {
+	background: url(images/img07.png) no-repeat center top;
+}
+
+#header {
+	min-height: 205px;
+	position: relative;
+}
+
+/* Logo */
+
+#logo {
+	overflow: hidden;
+	padding: 30px 0 30px 0;
+}
+
+#logo h1 {
+	margin: 0;
+}
+
+#logo h1 a {
+	display: block;
+	letter-spacing: -1px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: -1px -1px 0px #006f00;
+	text-transform: lowercase;
+	font-family: 'Allura', cursive;
+	font-size: 70pt;
+	font-weight: 200;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu-wrapper {
+	background: url(images/img06.png) top right repeat-y;
+}
+
+#menu {
+	font-size: 0;
+}
+
+#menu ul {
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+	padding: 0px 20px;
+	line-height: 60px;
+	height: 60px;
+	position: relative;
+}
+
+#menu li:hover {
+	box-shadow: inset 0px -2px 20px 0px rgba(0,0,0,0.2);
+	background: #006203;
+}
+
+#menu li:hover > .sub-menu {
+	display: block;
+	z-index: 9999;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Abel', sans-serif;
+	font-size: 13pt;
+	color: #FFF;
+}
+
+#menu .current_page_item, #menu .current-menu-item{
+	background: #006203;
+	color: #FFF;
+	box-shadow: inset 0px -2px 20px 0px rgba(0,0,0,0.2);
+}
+
+#menu .current_page_item a, #menu .current-menu-item a{
+	color: #FFF;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+#menu li ul ul {
+	top: 0;
+	margin-left: 170px;
+}
+
+/* Sub Menu */
+.sub-menu {
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	background: #006203;
+	width: 170px;
+}
+
+#menu .sub-menu li {
+	display: block;
+}
+
+/* Page Wrapper */
+
+#page-wrapper {
+	overflow: hidden;
+	padding: 30px 0px;
+	background: #cccccc;
+}
+
+/* Banner */
+
+#banner {
+	overflow: hidden;
+	padding: 0px 30px 30px 30px;
+}
+
+#banner a img {
+	display: block;
+	width: 100%;
+	height: 73px;
+}
+
+/* Content */
+
+#content {
+	padding: 0px 0px 0px 30px;
+}
+
+.twocolumn2 #content {
+	padding: 0px 30px 0px 0px;
+}
+
+.onecolumn #content {
+	padding: 0px 30px;
+}
+
+#content section {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+#content section:last-child {
+	border-bottom: 0;
+}
+
+.onecolumn #content section {
+	border-bottom: none;
+}
+
+#content h2 {
+	padding: 0px 0px 40px 0px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	font-size: 30pt;
+	color: #2A2A2A;
+}
+
+#content .post img {
+	border: 2px solid #F3F3F3;
+	max-width: 100%;
+	float: left;
+	margin-right: 10px;
+}
+
+#content .post img.attachment-post-thumbnail {
+	width: 300px;
+	height: auto;
+}
+
+#content a img {
+}
+
+#content .post {
+	padding: 0px 0px 40px 0px;
+}
+
+#content .post, #content .post p {
+	zoom: 1;
+	overflow: hidden;
+}
+
+#content .post:after, #content .post p: after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+/* Sidebar1 */
+
+#sidebar1 {
+	padding: 0px 0px 0px 0px;
+}
+
+#sidebar1 section {
+	margin: 0px 0px 50px 0px;
+}
+
+#sidebar1 h2 {
+	height: 50px;
+	background: url(images/img01.png) repeat;
+	margin-bottom: 20px;
+	padding: 0px 0px 0px 20px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-size: 20pt;
+	color: #FFFFFF;
+}
+
+
+/* Sidebar2 */
+
+#sidebar2 {
+	padding: 0px 30px 0px 0px;
+}
+
+.twocolumn2 #sidebar2 {
+	padding: 0px 0px 0px 30px;
+}
+
+#sidebar2 h2 {
+	height: 50px;
+	background: url(images/img10.png) no-repeat right top;
+	margin-bottom: 20px;
+	padding: 0px 0px 0px 20px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-size: 20pt;
+	color: #FFFFFF;
+}
+
+#sidebar2 div {
+	margin-bottom: 50px;
+}
+
+/** Footer Column Content */
+
+#footer-content {
+	overflow: hidden;
+	padding: 50px 0px 0px 0px;
+	text-shadow: 1px 1px 0px rgba(0,0,0, .3);
+	color: #F3F1EE;
+}
+
+#footer-content h2 {
+	padding: 0px 0px 40px 0px;
+	text-transform: uppercase;
+	font-size: 20pt;
+	color: #FFF;
+}
+
+#footer-content .imgleft {
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	border: 5px solid #FFFFFF;
+}
